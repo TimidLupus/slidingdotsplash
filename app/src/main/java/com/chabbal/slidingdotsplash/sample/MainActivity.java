@@ -13,14 +13,11 @@ import com.chabbal.slidingdotsplash.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity  {
 
-    private int[] imageResources = new int[]{R.drawable.splash_test,R.drawable.splash_test};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        SlidingSplashView splash = (SlidingSplashView) findViewById(R.id.splash);
-//        splash.setImageResources(imageResources);
     }
 
 }
