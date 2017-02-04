@@ -1,0 +1,25 @@
+ext {
+    bintrayRepo = 'Chabbal'
+    bintrayName = 'slidingdotsplash'
+
+    publishedGroupId = 'com.chabbal'
+    libraryName = 'SlidingDotSplash'
+    artifact = 'slidingdotsplash'
+
+    libraryDescription = 'Android Library to simplify splash/intro screens development'
+
+    siteUrl = 'https://github.com/Chabbal/slidingdotsplash'
+    gitUrl = 'https://github.com/Chabbal/slidingdotsplash.git'
+//    githubRepository= 'Chabbal/slidingdotsplash'
+
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'Chabbal'
+    developerName = 'Chabbal'
+    developerEmail = 'niazee@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
