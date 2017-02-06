@@ -1,5 +1,5 @@
 
-# Add slidingdotsplash to your project
+# Add slidingdotsplash to your gradle
 
 compile 'com.chabbal:slidingdotsplash:1.0.1'
 
