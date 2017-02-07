@@ -22,6 +22,7 @@ public class SlidingSplashView extends FrameLayout {
     private ViewPager mViewPager;
     private ImageViewPagerAdapter mViewPagerAdapter;
     private OnSetImageListener mOnSetImageListener;
+    ViewPager.OnPageChangeListener mOnPageChangeListener;
 
 
     public SlidingSplashView(Context context, AttributeSet attrs) {
@@ -72,6 +73,14 @@ public class SlidingSplashView extends FrameLayout {
 
     public void setOnItemClickListener(OnItemClickListener onItemClickListener){
         mViewPagerAdapter.setOnPagerItemClick(onItemClickListener);
+    }
+
+    public void addOnPageChangeListener(ViewPager.OnPageChangeListener onPageChangeListener){
+        mViewPager.addOnPageChangeListener(mOnPageChangeListener = onPageChangeListener);
+    }
+
+    public void removeOnPageChangeListener(){
+        mViewPager.removeOnPageChangeListener(mOnPageChangeListener);
     }
 
 }
