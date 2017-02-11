@@ -1,7 +1,7 @@
 
 # Add slidingdotsplash to your gradle
 
-compile 'com.chabbal:slidingdotsplash:1.0.1'
+compile 'com.chabbal:slidingdotsplash:1.0.2'
 
 ###### Add View to your main layout of your Activity or Fragment
 
